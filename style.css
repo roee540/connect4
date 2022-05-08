@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(14, 22, 13, 0.171);
+    text-align: center;
+}
+
+#connect4 {
+    background-color: yellow;
+    width: 45%;
+    display: inline-block;
+}
+
+.col {
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.col.empty {
+    cursor: pointer;
+}
+
+.row {
+    display: inline-block;
+    width: 100%;
+}
+
+.next-red {
+    background-color: red;
+}
+
+.next-black {
+    background-color: black;
+}
+
+.col.red {
+    background-color: red;
+}
+
+.col.black {
+    background-color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    #connect4 {
+        background-color: yellow;
+        width: 100% !important;
+        display: inline-block;
+    }
+
+    .col {
+        width: 35px;
+        height: 35px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 4px;
+    }
+  }
